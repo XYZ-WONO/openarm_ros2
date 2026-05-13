@@ -136,6 +136,7 @@ class OpenArm_v10HW : public hardware_interface::SystemInterface {
 
   // Helper methods
   void return_to_zero();
+  void set_current_pose();
   bool parse_config(const hardware_interface::HardwareInfo& info);
   void generate_joint_names();
 
